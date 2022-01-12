@@ -1,0 +1,28 @@
+.container {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items__wrapper {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.container__name {
+    margin: 5px;
+}
+
+.container__input-text {
+    margin: 5px;
+}
+
+button {
+    margin: 10px 0;
+}
